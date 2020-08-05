@@ -65,6 +65,12 @@ h2 {
   border: none;
   letter-spacing: 1px;
   cursor: pointer;
+  -webkit-transition: 0.2s ease-in opacity;
+  transition: 0.2s ease-in opacity;
+}
+
+.cta .btn:hover {
+  opacity: 0.7;
 }
 
 .cta .btn:not(:first-child) {
@@ -119,12 +125,12 @@ h2 {
 }
 
 .features .image img {
-  -webkit-transform: scale(1.6) translateX(-1.5rem);
-          transform: scale(1.6) translateX(-1.5rem);
+  -webkit-transform: scale(1.4) translateX(-6rem);
+          transform: scale(1.4) translateX(-6rem);
 }
 
 .features .content {
-  margin-left: 13rem;
+  margin-left: 5rem;
   text-align: left;
 }
 
@@ -157,12 +163,40 @@ h2 {
           align-items: flex-start;
 }
 
+.workflow .flex .item {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.workflow .flex .item p {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.workflow .flex .item img {
+  margin-bottom: 1rem;
+}
+
 .workflow .flex .item:nth-child(2) {
   padding-top: 1.3rem;
 }
 
-.workflow p {
-  margin-bottom: 3rem;
+.workflow .flex .item:last-child {
+  margin-right: 0;
+}
+
+.sponsors {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 10rem;
+}
+
+.call-to-action h2 {
+  font-size: 2.4rem;
+}
+
+.call-to-action .cta {
+  margin: 3rem 0 10rem 0;
 }
 
 footer {
@@ -232,6 +266,15 @@ footer .menu li {
   margin-right: 1.3rem;
 }
 
+footer .menu li a {
+  -webkit-transition: 0.2s ease-in color;
+  transition: 0.2s ease-in color;
+}
+
+footer .menu li a:hover {
+  color: #26baa4;
+}
+
 footer .menu li:first-child {
   margin-bottom: 1.4rem;
 }
@@ -242,5 +285,11 @@ footer .social li:not(:last-child) {
 
 footer .social li a {
   font-size: 1.7rem;
+  -webkit-transition: 0.2s ease-in color;
+  transition: 0.2s ease-in color;
+}
+
+footer .social li a:hover {
+  color: #26baa4;
 }
 /*# sourceMappingURL=styles.css.map */
