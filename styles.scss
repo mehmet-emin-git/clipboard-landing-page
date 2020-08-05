@@ -320,6 +320,7 @@ footer {
   }
 
   .hero {
+    background: url("./images/bg-header-mobile.png") no-repeat center / cover;
     h1 {
       font-size: 2rem;
     }
@@ -417,6 +418,66 @@ footer {
           margin-right: 2.5rem;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img {
+    max-width: 100%;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .hero {
+    padding: 3rem 0;
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  .snippets {
+    margin-top: 6.5rem;
+  }
+
+  .features .image {
+    margin-top: 2rem;
+  }
+
+  .access {
+    margin-top: 10.5rem;
+
+    .img {
+      margin-top: 4rem;
+      transform: scale(1);
+    }
+  }
+
+  .workflow {
+    margin-top: 6.5rem;
+  }
+
+  .sponsors {
+    .brand {
+      width: 7rem;
+    }
+  }
+
+  .call-to-action {
+    margin-top: 11rem;
+
+    .cta {
+      margin: 3rem 0 11rem 0;
+    }
+  }
+  footer {
+    margin-top: 3rem;
+    background: #edf0f2;
+    padding: 2.2rem 1rem;
+    .logo {
+      max-width: 4rem;
     }
   }
 }

@@ -342,6 +342,9 @@ footer .social li a:hover {
   .cta .btn:not(:first-child) {
     margin: 1.8rem 0 0 0;
   }
+  .hero {
+    background: url("./images/bg-header-mobile.png") no-repeat center/cover;
+  }
   .hero h1 {
     font-size: 2rem;
   }
@@ -438,6 +441,55 @@ footer .social li a:hover {
   }
   footer .social li:not(:last-child) {
     margin-right: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img {
+    max-width: 100%;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .hero {
+    padding: 3rem 0;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+  .snippets {
+    margin-top: 6.5rem;
+  }
+  .features .image {
+    margin-top: 2rem;
+  }
+  .access {
+    margin-top: 10.5rem;
+  }
+  .access .img {
+    margin-top: 4rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .workflow {
+    margin-top: 6.5rem;
+  }
+  .sponsors .brand {
+    width: 7rem;
+  }
+  .call-to-action {
+    margin-top: 11rem;
+  }
+  .call-to-action .cta {
+    margin: 3rem 0 11rem 0;
+  }
+  footer {
+    margin-top: 3rem;
+    background: #edf0f2;
+    padding: 2.2rem 1rem;
+  }
+  footer .logo {
+    max-width: 4rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
